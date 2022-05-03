@@ -1,0 +1,134 @@
+
+       body {
+        background: dimgray;
+        color: white;
+        margin: 0;
+        padding: 0px
+    } 
+    header{
+        background-color: rgb(0, 51, 102);
+        background-image: url("../images/game-bkg.jpg");
+        background-position: center;
+        background-size: 100%;
+        height: 400px;
+        padding: 20px;
+        text-align: left;
+    }
+    header .logo a{
+        background-image: url("../images/umbrella_logo2.png");
+        background-size: 200px;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -50px;
+        display: inline-block;
+        height: 80px;
+        text-indent: -99999999px;
+        width: 200px;
+    }
+
+    .features {
+        background: burlywood;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        padding: auto;
+        margin: 10px;
+        position: relative;
+        border-color: rgb(157, 130, 96);
+    }
+
+    .features figure {
+        margin: auto;
+        width: 300px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .features figure img{
+        border-radius: 50%;
+        width: 300px;
+        padding: 20px;
+        
+    }
+
+    .features figure figcaption {
+        position: relative;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+        height: 15px;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    a:hover {
+        color:rgb(117, 162, 191);
+        
+    }
+
+    .accountPost {
+        background-color: rgb(30, 112, 195);
+        background-position: left;
+        background-size: 100%;
+        display: inline-flexbox;
+        padding: 20px;
+        height: 175px;
+        width: 100%;
+    }
+    img {
+        width: 70px;
+        border-radius: 35px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .nameTitle {
+        font-weight: bold;
+    }
+    div {
+        background: orange;
+        padding: 10px;
+        margin: 0px;
+        display: inline;
+    }
+
+    .postDiv {
+        background: orange;
+        padding: 10px;
+        border: 5px;
+        border-color: darkorange;
+        margin: 2px;
+        
+    }
+   
+    p {
+        font-size: 20px;
+        display: contents;
+        
+    }
+
+    footer {
+        background: rgb(0, 51, 102);
+        height: 20px;
+    }
