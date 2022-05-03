@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Umbrella</title>
+    <link rel="stylesheet" href="../static/styles.css">
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="../index.html">Umbrella Logo</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="connect.html">Connect</a></li>
+                <li><a href="profile.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome!</h1>
+    </header>
+    <section class="accountPost">
+        <label for="postprompt">Write a Post</label> <br> 
+        <input type="text" id="post"><br> <br>
+        <button onclick="userPost()" on> Submit </button> <br> <br>
+    <div class="postDiv">    
+        <img src="../images/khendrip.jpeg" alt="no image displayed">
+        <p class="nameTitle" id="username"> @khendrickLamar</p>
+        <p id="userMessage"> </p> 
+    </div>
+
+    </section>
+    <section></section>
+    <footer>Umbrella</footer>
+
+    <script>
+        function userPost() {
+            let username = document.querySelector("#username");
+            let userMessage = document.querySelector("#userMessage");
+            let post = document.querySelector("#post");
+            userMessage.innerHTML = post.value;
+        }
+    </script>
+</body>
+
+
+</html>
